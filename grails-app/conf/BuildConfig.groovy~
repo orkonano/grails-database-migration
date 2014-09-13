@@ -8,6 +8,11 @@ grails.project.docs.output.dir = 'docs/manual' // for backwards-compatibility, t
 
 grails.project.fork = false
 
+grails.project.dependency.resolver = "maven"
+
+grails.project.repos.snapshots.url = "http://repository-orkoapp.forge.cloudbees.com/snapshot/"
+
+
 grails.project.dependency.resolution = {
 
 	inherits 'global'
