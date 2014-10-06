@@ -23,6 +23,7 @@ grails.project.dependency.resolution = {
 		compile('org.liquibase:liquibase-core:2.0.5') {
 			excludes 'junit', 'easymockclassextension', 'ant', 'servlet-api', 'spring'
 		}
+        compile 'commons-io:commons-io:2.4'
 		test 'commons-dbcp:commons-dbcp:1.4'
 	}
 
