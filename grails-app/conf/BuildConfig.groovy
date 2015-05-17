@@ -17,6 +17,7 @@ grails.project.dependency.resolution = {
 		mavenLocal()
 		grailsCentral()
 		mavenRepo "http://repo.grails.org/grails/core"
+		mavenRepo "http://nexus-bambooarg.rhcloud.com/nexus/content/groups/public/"
 	}
 
 	dependencies {
@@ -29,7 +30,7 @@ grails.project.dependency.resolution = {
 	}
 
 	plugins {
-		build(':release:3.0.1', ':rest-client-builder:2.0.1') {
+		build(':release:3.1.1', ':rest-client-builder:2.0.1') {
 			export = false
 		}
 
